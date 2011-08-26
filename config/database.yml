@@ -1,0 +1,20 @@
+development:
+  adapter: jdbcmysql
+  encoding: utf8
+  database: rails_template_development
+  username: root
+  password:
+
+test:
+  adapter: jdbcmysql
+  encoding: utf8
+  database: rails_template_test
+  username: root
+  password:
+
+production:
+  adapter: jdbcmysql
+  encoding: utf8
+  database: rails_template_production
+  username: root
+  password:
